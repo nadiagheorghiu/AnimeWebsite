@@ -1,8 +1,8 @@
 <template>
-<div id="app">  
-  <Header></Header>
-  <router-view></router-view>
-  <Footer></Footer>
+  <div id="app">
+    <Header></Header>
+    <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -23,7 +23,7 @@ export default {
 
 <style>
 :root {
-  --first-color: #e67e22;
+  --first-color: #e67e22; //11
   --third-color: #747474;
   --second-color: #3a392b;
   --font-family: "Poppins", sans-serif;
