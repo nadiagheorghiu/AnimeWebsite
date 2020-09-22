@@ -3,7 +3,7 @@
     <header>
       <div class="header">
         <router-link to="/" class="logo">
-          <img src="assets/logo1.png" alt="Search">
+          <img src="../assets/logo1.png" alt="Search">
         </router-link>
         <nav class="navigation">
           <ul>
@@ -18,7 +18,7 @@
             </li>
             <li>
               <router-link class="search-icon" to="/search">
-                <img src="../assets/search_icon.png" alt="Search">
+                <img src="assets/search_icon.png" alt="Search">
               </router-link>
             </li>
           </ul>

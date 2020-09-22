@@ -59,13 +59,11 @@
         </div>
         <div class="instagram">
           <a href="#" target="_bank">
-            <img src="../assets/instagram.png" alt="Instagram Logo" width="30px" height="30px">
+            <img src="/assets/instagram.png" alt="Instagram Logo" width="30px" height="30px">
           </a>
         </div>
       </div>
-      <!-- .social-networks-->
     </div>
-    <!-- .footer-container -->
   </footer>
 </template>
 

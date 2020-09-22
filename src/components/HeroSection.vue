@@ -6,7 +6,6 @@
         My hero Academia:
         <span>Heroes Rising</span>
       </h2>
-
       <div>
         <p class="description" :class="{seeAll: see}">{{description}}</p>
         <button class="ReadMore" v-if="!see" @click="ReadMore">
@@ -56,13 +55,15 @@ export default {
    color: #fff;
    transition: 0.5s;
  }
+ 
+
 .banner {
   padding: 100px 50px;
   position: relative;
   width: 100%;
   min-height: 85vh;
   padding: 0 100px;
-  background-image: url("/assets/2.jpg");
+  background: url("../assets/2.jpg");
   background-position: center;
   background-size: cover;
 }
